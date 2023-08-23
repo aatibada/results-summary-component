@@ -1,14 +1,17 @@
 const Result = () => {
   return (
-    <section>
+    <section className="result">
       <h1>Your Result</h1>
-      <h2>
-        <span>76</span> of 100
-      </h2>
-      <h3>Great</h3>
-      <p>
-        Your performance exceeds 65% of the people conducting the test here!
-      </p>
+      <div className="score-container">
+        <h2>76</h2>
+        <p>of 100</p>
+      </div>
+      <div className="score-detail">
+        <h3>Great</h3>
+        <p>
+          Your performance exceeds 65% of the people conducting the test here!
+        </p>
+      </div>
     </section>
   );
 }
